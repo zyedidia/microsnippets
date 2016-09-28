@@ -1,3 +1,5 @@
+VERSION = "0.1.1"
+
 local curFileType = ""
 local snippets = {}
 local currentSnippet = nil
