@@ -422,7 +422,7 @@ MakeCommand("snippetcancel", "snippets.Cancel", 0)
 -- Acceptes snipped editing
 MakeCommand("snippetaccept", "snippets.Accept", 0)
 
-AddRuntimeFile("snippets", "help", "help/snippet.md")
+AddRuntimeFile("snippets", "help", "help/snippets.md")
 AddRuntimeFilesFromDirectory("snippets", "snippets", "snippets", "*.snippets")
 
 BindKey("Alt-w", "snippets.Next")
